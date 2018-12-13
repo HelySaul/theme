@@ -1,28 +1,3 @@
-/*
-Theme Name:     Storefront Child Theme
-Theme URI:      https://github.com/stuartduff/storefront-child-theme
-Author:         Stuart Duff
-Author URI:     http://stuartduff.com
-Template:       storefront
-Description:    This is a blank child theme for WooThemes StoreFront theme
-Version:        1.0.0
-License:        GNU General Public License v2 or later
-License URI:    http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:    storefront
-Tags:           black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
-Resetting and rebuilding styles have been helped along thanks to the fine work of
-Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
-along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
-Images License: GNU General Public License v2 or later
-*/
-/*
- * Add your own custom css below this text.
- */
-
 .site-header {
     background-repeat: no-repeat;
     border-bottom: none !important;
@@ -156,11 +131,44 @@ button.menu-toggle::after {
     margin-bottom: 50px;
 }
 
-.banner.booster-bar {
-    background: url(../assets/banners/booster-bar.png);
-    background-repeat: no-repeat;
+.banner-img {
+    width: 100%;
+}
+
+.home-banner {
     background-size: cover;
-    background-position: center;
+    background: url(../assets/banners/home-banner.png) no-repeat center;
+}
+
+.banner.toolsuite-banner {
+    background-size: cover;
+    background: url(../assets/banners/crm-banner.png) no-repeat center;
+}
+
+
+.banner.booster-banner {
+    background-size: contain;
+    background: url(../assets/banners/booster-bar.png) no-repeat center;
+}
+
+.banner.pricing-banner {
+    background-size: cover;
+    background: url(../assets/banners/pricing-banner.png) no-repeat center;
+}
+
+.banner.contact-banner {
+    background-size: cover;
+    background: url(../assets/banners/contact-banner.png) no-repeat center;
+}
+
+.banner.investors-banner {
+    background-size: cover;
+    background: url(../assets/banners/investors-banner.png) no-repeat center;
+}
+
+.banner.about-banner {
+    background-size: cover;
+    background: url(../assets/banners/about-banner.png) no-repeat center;
 }
 
 .home.blog .site-header, .home.page:not(.page-template-template-homepage) .site-header, .home.post-type-archive-product .site-header {
@@ -682,7 +690,7 @@ button.menu-toggle::after {
 }
 
 .margin-top {
-    margin-top: -75px;
+    /*margin-top: -75px;*/
 }
 
 .col-cel {
@@ -1252,7 +1260,6 @@ button.menu-toggle::after {
     flex-direction: column;
     text-decoration: none;
     align-items: center;
-    border-bottom: 5px solid #FFF;
 
 }
 
@@ -1392,52 +1399,6 @@ button.menu-toggle::after {
 
 .page-template-page-contact .site {
     overflow: initial;
-}
-
-
-/*display none*/
-
-
-/* Breadcrumb */
-
-.page-template-page-about-us .storefront-breadcrumb{
-    display: none;
-}
-.page-template-page-crm .storefront-breadcrumb{
-    display: none;
-}
-.page-template-booster .storefront-breadcrumb{
-    display: none;
-}
-.page-template-page-contact .storefront-breadcrumb{
-    display: none;
-}
-.page-template-page-investors .storefront-breadcrumb{
-    display: none;
-}
-.page-template-page-pricing .storefront-breadcrumb{
-    display: none;
-}
-
-
-/* WRAPPER */
-.page-template-page-about-us .wrapper{
-    display: none;
-}
-.page-template-page-crm .wrapper{
-    display: none;
-}
-.page-template-booster .wrapper{
-    display: none;
-}
-.page-template-page-contact .wrapper{
-    display: none;
-}
-.page-template-page-investors .wrapper{
-    display: none;
-}
-.page-template-page-pricing .wrapper{
-    display: none;
 }
 
 
