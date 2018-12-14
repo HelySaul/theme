@@ -2,6 +2,14 @@
 <?php include('../common/top.php') ?>
 
 <div id="content" class="site-content" tabindex="-1">
+
+    <div id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="blockcenterfront-above">
+                SMASH Network growing <span class="txtcolor-b bold-400">Globally</span> and <span class="txtcolor-g bold-400"> Locally</span>
+            </div>
+            <div class="blockcenterfront-below">
+                <p>Individuals, Businesses and Organization of ALL TYPES are coming online daily.</p>
+            </div></div></div>
+
 	<div class="col-full">
 		<div class="main-list">
 			<div class="information-front">

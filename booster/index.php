@@ -25,8 +25,8 @@
 	</div>
 	<div>
 			<div class="row mt-5 mb-5 bg-light gray-background booster-item-line">
-				<div class="col-sm-3">
-					<img class='booster-img' src="../assets/img/Mapa.png">
+				<div class="col-sm-3 booster-img">
+					<img src="../assets/img/Mapa.png">
 				</div>
 				<div class="col-sm-3 align-middle booster-center">
 				    <div class="bold-400 line-title">Automated Werbsite SEO Boost</div>
@@ -43,8 +43,8 @@
 
 		<!--row two-->
 			<div class="row mt-5 mb-5 booster-item-line">
-				<div class="col-sm-3">
-					<img class='booster-img' src="../assets/img/Business Map.png">
+				<div class="col-sm-3 booster-img">
+					<img src="../assets/img/Business Map.png">
 				</div>
 				<div class="col-sm-3 booster-center">
                     <div class="bold-400 line-title">Put Your Business on the Map!</div>

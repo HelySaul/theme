@@ -39,4 +39,21 @@
 			</div>
 	</div>
 <div>
+    <script>
+
+        $(window).resize(function() {
+            const nav = $('.nav-tabs');
+            if ($(window).width() < 768) {
+                nav.removeClass('visible').css('display', 'none');
+            }
+            else {
+                nav.addClass('visible').css('display', 'flex');
+            }
+        });
+
+        $('.menu-icon').on('click', function () {
+            const nav = $('.nav-tabs');
+            nav.hasClass('visible') ? nav.removeClass('visible').css('display', 'none') : nav.addClass('visible').css('display', 'flex');
+        })
+    </script>
 

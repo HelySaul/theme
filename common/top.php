@@ -14,6 +14,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="../common/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <header class="<?php echo $ACTIVE_TAB === 0 ? 'home-banner' : '' ?>">
     <nav>
@@ -54,6 +55,7 @@
                     <button class="button">Free Account</button>
                 </div>
             </div>
+            <i class="fas fa-bars menu-icon"></i>
         </div>
     </nav>
     <?php
@@ -84,4 +86,41 @@
     ?>
     <?php if($banner) { ?><img class="banner-img" src="<?php echo $banner?>" alt=""> <?php }?>
     <?php if(!$banner) { ?><div class='banner'></div> <?php }?>
+    <?php if(!$banner) { ?> <div class="wrapper">
+        <div class="after"></div>
+        <div class="options first-option
+			  ">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/contactmanager.png">
+            Contact Manager
+        </div>
+        <div class="options">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/supercalendar.png">
+            Super Calendar
+        </div>
+        <div class="options">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/taskmanager.png">
+            Task Manager
+        </div>
+        <div class="options">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/eventmanager.png">
+            Event Manager
+        </div>
+        <div class="options">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/virtualassistant.png">
+            Virtual Assistant
+        </div>
+        <div class="options">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/videoemail.png">
+            Video Email
+        </div>
+        <div class="options">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/buzzwall.png">
+            Buzz Wall
+        </div>
+        <div class="options last-option">
+            <img src="https://smashtechnology.com/wp-content/themes/storefront-child-theme-master/assets/img/menu-topo/smashpages.png">
+            Smash Pages
+        </div>
+        <div class="before"></div>
+    </div><?php }?>
 </header>
